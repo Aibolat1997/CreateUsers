@@ -1,0 +1,159 @@
+body {
+    font-family: "Roboto", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.page-title {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: -0.03em;
+    color: #4E4E4E;
+    margin: 24px 0 16px 20px;
+}
+.box-title {
+    background: #195ABB;
+    border-radius: 8px 8px 0 0;
+    height: 56px;
+    margin: 0 20px;
+}
+.form-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 16px;
+    padding-left: 24px;
+}
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin: 24px 0 0 20px;
+}
+.content {
+    background: #F8F9FF;
+    border-radius: 0 0 8px 8px;
+    padding: 1% 0;
+    margin: 0 20px;
+}
+.checkbox-label {
+    font-size: 0;
+}
+.checkbox {
+    display: none;
+    width: 283px;
+    height: 56px;
+}
+.checkbox-text {
+    border: 1px solid #D6D5D5;
+    box-sizing: border-box;
+    padding: 16px 20px;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    color: #9A9A9A;
+}
+.title-info {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4E4E4E;
+}
+.text-mr {
+    border-radius: 30px 0 0 30px;
+}
+.text-div {
+    border-radius: 0 30px 30px 0;
+}
+.input {
+    border: 1px solid #D6D5D5;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 16px 25px;
+    height: 56px;
+}
+.long {
+    width: 95%;
+}
+.average {
+    width: 75%;
+}
+.short {
+    width: 50%;
+}
+.box-radio {
+    margin-left: 36px;
+}
+.box-input {
+    margin-left: 20px;
+}
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #195ABB;
+    border: 1px solid #195ABB;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: #F8F9FF;
+    padding: 16px 48px;
+    margin: 4% 0 2% 2%;
+}
+.button:hover {
+    background: #195ABB;
+    color: #FFFFFF;
+}
+.box-main {
+    margin-left: 15px;
+}
+.checkbox:checked + .checkbox-text {
+    border: 2px solid #209CEE;
+    color: #209CEE; 
+}
+.item {
+    color: red;
+}
+@media screen and (min-width: 900px) {
+    .personal-info {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .long {
+        width: 384px;
+    }
+    .average {
+        width: 283px;
+    }
+    .short {
+        width: 182px;
+    }
+    .main {
+        display: flex;
+        flex-direction: row;
+        padding: 0 20px;
+    }
+    .box-main {
+        margin-left: 0;
+    }
+    .checkbox-text {
+        padding: 16px 24px;
+        font-size: 16px;
+    }
+    .contacts {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .settings {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
